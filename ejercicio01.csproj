@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MiBD\demoEF.cs" />
+    <Compile Include="MiBD\Departamento.cs" />
     <Compile Include="MiBD\Empleado.cs" />
     <Compile Include="Migrations\201510281507325_EmpleadoTabla.cs" />
     <Compile Include="Migrations\201510281507325_EmpleadoTabla.Designer.cs">
@@ -83,6 +84,14 @@
     <Compile Include="Migrations\201510281539156_otro.cs" />
     <Compile Include="Migrations\201510281539156_otro.Designer.cs">
       <DependentUpon>201510281539156_otro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511061627144_deps.cs" />
+    <Compile Include="Migrations\201511061627144_deps.Designer.cs">
+      <DependentUpon>201511061627144_deps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511061628232_empleado.cs" />
+    <Compile Include="Migrations\201511061628232_empleado.Designer.cs">
+      <DependentUpon>201511061628232_empleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -104,6 +113,12 @@
     <EmbeddedResource Include="Migrations\201510281539156_otro.resx">
       <DependentUpon>201510281539156_otro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511061627144_deps.resx">
+      <DependentUpon>201511061627144_deps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511061628232_empleado.resx">
+      <DependentUpon>201511061628232_empleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -116,7 +131,9 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

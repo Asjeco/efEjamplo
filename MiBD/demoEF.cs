@@ -10,5 +10,6 @@ namespace ejercicio01.MiBD
     public class demoEF : DbContext {
 
         public DbSet<Empleado> Empleados { get; set; } //<clase> Empleados(tablas)
+        public DbSet<Departamento> Departamentos { get; set; }
     }
 }

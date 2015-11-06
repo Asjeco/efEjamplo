@@ -36,3 +36,5 @@ C:\Users\alumno15\Documents\ejercicio01\ejercicio01\bin\Debug\EntityFramework.dl
 C:\Users\alumno15\Documents\ejercicio01\ejercicio01\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\alumno15\Documents\ejercicio01\ejercicio01\bin\Debug\EntityFramework.xml
 C:\Users\alumno15\Documents\ejercicio01\ejercicio01\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alumno15\Documents\ejercicio01\ejercicio01\obj\Debug\ejercicio01.Migrations.deps.resources
+C:\Users\alumno15\Documents\ejercicio01\ejercicio01\obj\Debug\ejercicio01.Migrations.empleado.resources
