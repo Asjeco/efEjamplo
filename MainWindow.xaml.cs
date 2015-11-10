@@ -37,7 +37,8 @@ namespace ejercicio01
                 Empleado emp = new Empleado();
                 emp.Nombre = txtNombre.Text;
                 emp.Sueldo = int.Parse(txtSueldo.Text);
-
+                 
+               
                 db.Empleados.Add(emp);
                 db.SaveChanges();
           //  }
@@ -111,6 +112,20 @@ namespace ejercicio01
 
 
 
+        }
+
+        private void Grid_Loaded_1(object sender, RoutedEventArgs e)
+        {
+           
+            
+        }
+
+        private void Window_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            demoEF db = new demoEF();
+            cbbDepartamentos.ItemsSource = db.Departamentos.ToList();
+            cbbDepartamentos.DisplayMemberPath = "Nombre";
+            cbbDepartamentos.SelectedValuePath = "id";
         }
 
 
