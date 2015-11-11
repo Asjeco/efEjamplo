@@ -98,31 +98,29 @@ namespace ejercicio01
         private void btbverID_Click(object sender, RoutedEventArgs e)
         {
             if (Regex.IsMatch(txtId.Text, @"\d+$"))
-                {
-            demoEF db = new demoEF();
-            int id = int.Parse(txtId.Text);
-            var registros = from s in db.Empleados
-
-                            select new
-                            {
-                                s.Nombre,
-                                s.Sueldo
-                            };
-            dbGrid.ItemsSource = registros.ToList();
-
-                }
+            {
+                //Consultar solo por ID
+                demoEF db = new demoEF();
+                int id = int.Parse(txtId.Text);
+                var registros = from s in db.Empleados
+                                where s.id == id
+                                select new
+                                {
+                                    s.Nombre,
+                                    s.Sueldo
+                                };
+                dbGrid.ItemsSource = registros.ToList();
+            }
             else { MessageBox.Show("Solo numeros #id"); }
         }
 
         private void btnverTodos_Click(object sender, RoutedEventArgs e)
         {
 
+            //Consultar solo por ID
             demoEF db = new demoEF();
-            int id = int.Parse(txtId.Text);
             var registros = from s in db.Empleados
-
                             select s;
-
             dbGrid.ItemsSource = registros.ToList();
 
 
