@@ -38,3 +38,6 @@ C:\Users\alumno15\Documents\ejercicio01\ejercicio01\bin\Debug\EntityFramework.xm
 C:\Users\alumno15\Documents\ejercicio01\ejercicio01\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\alumno15\Documents\ejercicio01\ejercicio01\obj\Debug\ejercicio01.Migrations.deps.resources
 C:\Users\alumno15\Documents\ejercicio01\ejercicio01\obj\Debug\ejercicio01.Migrations.empleado.resources
+C:\Users\alumno15\Documents\ejercicio01\ejercicio01\obj\Debug\ejercicio01.Migrations.correciones.resources
+C:\Users\alumno15\Documents\ejercicio01\ejercicio01\obj\Debug\ejercicio01.Migrations.nueva.resources
+C:\Users\alumno15\Documents\ejercicio01\ejercicio01\obj\Debug\ejercicio01.Migrations.correcionesDep.resources

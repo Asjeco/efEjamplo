@@ -93,6 +93,18 @@
     <Compile Include="Migrations\201511061628232_empleado.Designer.cs">
       <DependentUpon>201511061628232_empleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511111555230_correciones.cs" />
+    <Compile Include="Migrations\201511111555230_correciones.Designer.cs">
+      <DependentUpon>201511111555230_correciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511111625087_nueva.cs" />
+    <Compile Include="Migrations\201511111625087_nueva.Designer.cs">
+      <DependentUpon>201511111625087_nueva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511111635020_correcionesDep.cs" />
+    <Compile Include="Migrations\201511111635020_correcionesDep.Designer.cs">
+      <DependentUpon>201511111635020_correcionesDep.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -118,6 +130,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201511061628232_empleado.resx">
       <DependentUpon>201511061628232_empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511111555230_correciones.resx">
+      <DependentUpon>201511111555230_correciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511111625087_nueva.resx">
+      <DependentUpon>201511111625087_nueva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511111635020_correcionesDep.resx">
+      <DependentUpon>201511111635020_correcionesDep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

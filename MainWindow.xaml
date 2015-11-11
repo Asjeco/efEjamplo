@@ -23,8 +23,11 @@
         <Button Content="Actualiza" HorizontalAlignment="Left" Margin="376,90,0,0" VerticalAlignment="Top" Width="112" Height="29" Click="Button_Click_3" Grid.Column="1" FontSize="18"/>
         <DataGrid x:Name="dbGrid" HorizontalAlignment="Left" Margin="31,276,0,0" VerticalAlignment="Top" Height="194" Width="485" Grid.Column="1"/>
         <Button x:Name="btbverID" Content="Ver por ID" HorizontalAlignment="Left" Margin="71,24,0,0" VerticalAlignment="Top" Width="112" Height="40" Grid.Column="1" Click="btbverID_Click" Grid.Row="1" FontSize="18"/>
-        <Button x:Name="btnverTodos" Content="ver Todos" Grid.Column="1" HorizontalAlignment="Left" Margin="341,24,0,0" VerticalAlignment="Top" Width="103" Height="40" Click="btnverTodos_Click" Grid.Row="1" FontSize="18"/>
+        <Button x:Name="btnverTodos" Content="ver Todos" Grid.Column="1" HorizontalAlignment="Left" Margin="71,83,0,0" VerticalAlignment="Top" Width="103" Height="40" Click="btnverTodos_Click" Grid.Row="1" FontSize="18"/>
         <ComboBox x:Name="cbbDepartamentos" Grid.Column="1" HorizontalAlignment="Left" Margin="198,215,0,0" VerticalAlignment="Top" Width="138" Height="29"/>
+        <Button Content="Alta" Grid.Column="1" HorizontalAlignment="Left" Margin="397,83,0,0" Grid.Row="1" VerticalAlignment="Top" Width="76" FontSize="18" Click="Button_Click_4"/>
+        <Label Content="Departamento" Grid.Column="1" HorizontalAlignment="Left" Margin="246,30,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="txtDep" Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="376,30,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
 
     </Grid>
 </Window>
